@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://theandyb.github.com/codespace_profile",
+  "homepage": "https://andytbeck.com/codespace_profile",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://theandyb.github.io/codespace_profile'",
+    "build-gh": "parcel build --public-url 'https://andytbeck.com/codespace_profile'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
